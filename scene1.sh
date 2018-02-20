@@ -6,5 +6,5 @@ yum install docker-ce -y -y
 systemctl start docker
 docker run -it centos
 yum install httpd -y 
-
+service httpd stop
 echo success 

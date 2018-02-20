@@ -1,10 +1,6 @@
 #!/bin/sh
-systemctl stop docker
 
-echo stopped
-
-systemctl start docker
-
-echo started
+docker ps -a
+docker run -it centos
 
 

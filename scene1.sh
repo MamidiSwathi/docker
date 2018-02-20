@@ -1,7 +1,10 @@
 #!/bin/sh
+systemctl stop docker
 
-cd /var/lib/jenkins
-mkdir test
+echo stopped
 
+systemctl start docker
+
+echo started
 
 

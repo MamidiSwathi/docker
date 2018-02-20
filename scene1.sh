@@ -1,6 +1,7 @@
 #!/bin/sh
 
-docker run -it centos
+cd /var/lib/jenkins
+mkdir test
 
 
 

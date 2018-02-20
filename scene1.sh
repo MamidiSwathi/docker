@@ -7,4 +7,5 @@ systemctl start docker
 docker run -it centos
 yum install httpd -y 
 service httpd stop
+service httpd start
 echo success 
